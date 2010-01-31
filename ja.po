@@ -309,7 +309,7 @@ msgstr "見つかりませんでした。"
 
 #: c:\temp\mystique\search.php:42
 msgid "Try a different search?"
-msgstr "見つかりませんでした。別の検索をしますか ?"
+msgstr "別の単語で検索してください。"
 
 #: c:\temp\mystique\search.php:46
 msgid "What do you wish to search for?"
@@ -317,7 +317,7 @@ msgstr "WYSIWYGモードに切り替えますか ?"
 
 #: c:\temp\mystique\searchform.php:11
 msgid "You have searched the archives for %s"
-msgstr "%s カテゴリーのアーカイブを表示しています。"
+msgstr "%s の検索結果を表示しています。"
 
 #: c:\temp\mystique\searchform.php:13
 msgid "Type a valid search term..."
