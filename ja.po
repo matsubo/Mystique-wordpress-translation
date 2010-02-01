@@ -8,6 +8,7 @@ msgstr ""
 "Language-Team: Yuki Matsukura\n"
 "Last-Translator: Yuki Matsukura\n"
 "MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
@@ -415,7 +416,7 @@ msgstr "レイアウト"
 
 #: c:\temp\mystique\lib/admin.php:353
 msgid "Use page templates to apply these only to specific pages"
-msgstr "ある特定のページのみに適応したい場合は、ページテンプレートを使ってください。"
+msgstr "ある特定のページのみレイアウトを変更したい場合合は、ページテンプレートを使ってください。"
 
 #: c:\temp\mystique\lib/admin.php:389
 msgid "Imageless layout"
@@ -449,7 +450,7 @@ msgstr "プレビューを読み込み中"
 #: c:\temp\mystique\lib/admin.php:414
 #: c:\temp\mystique\lib/admin.php:426
 msgid "Sidebar(s) vs Main Content ratio"
-msgstr "サイドバーとメインコンテンツの割合"
+msgstr "サイドバーとメインコンテンツの横幅の割合"
 
 #: c:\temp\mystique\lib/admin.php:436
 msgid "Preferred font style"
@@ -457,7 +458,7 @@ msgstr "お好みのフォント"
 
 #: c:\temp\mystique\lib/admin.php:436
 msgid "Font priority and their availability"
-msgstr "利用するフォント"
+msgstr "利用するフォントの優先度を設定します"
 
 #: c:\temp\mystique\lib/admin.php:447
 msgid "Color scheme"
@@ -465,7 +466,7 @@ msgstr "配色"
 
 #: c:\temp\mystique\lib/admin.php:451
 msgid "Not available with <em>imageless</em> setting"
-msgstr "PHP の ftp 拡張機能が使用できません"
+msgstr "画像をアップロードしてください"
 
 #: c:\temp\mystique\lib/admin.php:478
 msgid "Custom logo image"
@@ -496,7 +497,7 @@ msgstr "ヘッダー画像"
 
 #: c:\temp\mystique\lib/admin.php:493
 msgid "Upload a new background/header image to replace the default one"
-msgstr "ヘッダーの背景画像をアップロードしてください。デフォルトを上書きします。"
+msgstr "ヘッダーの背景画像をアップロードしてください。アップロードするとデフォルトの文言を上書きします。"
 
 #: c:\temp\mystique\lib/admin.php:508
 msgid "Background color"
@@ -828,7 +829,7 @@ msgstr "tableのスタイルを削除する"
 
 #: c:\temp\mystique\lib/codehelpers.php:116
 msgid "Text-Justify post and page content"
-msgstr "本文、タイトル、抜粋が空欄です。"
+msgstr "横幅をウィンドウにフィット"
 
 #: c:\temp\mystique\lib/codehelpers.php:120
 msgid "Fixed custom background image"
@@ -836,32 +837,51 @@ msgstr "背景画像をスクロールしない"
 
 #: c:\temp\mystique\lib/core.php:83
 msgid "about %s year ago"
-msgstr "約 %s 年前"
+msgid_plural "about %s years ago"
+msgstr[0] "約 %s 年前"
+msgstr[1] "約 %s 年前"
 
 #: c:\temp\mystique\lib/core.php:84
 msgid "about %s month ago"
-msgstr "約 %s ヶ月前"
+msgid_plural "about %s months ago"
+msgstr[0] "%s ヶ月前"
+msgstr[1] "%s ヶ月前"
 
 #: c:\temp\mystique\lib/core.php:85
 msgid "about %s week ago"
-msgstr "約 %s 週間前"
+msgid_plural "about %s weeks ago"
+msgstr[0] "%s 週間前"
+msgstr[1] "%s 週間前"
+
 
 #: c:\temp\mystique\lib/core.php:86
 msgid "about %s day ago"
-msgstr "約 %s 日前"
+msgid_plural "about %s days ago"
+msgstr[0] "%s 日前"
+msgstr[1] "%s 日前"
 
-#: c:\temp\mystique\lib/core.php:87
+
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:87
+#, php-format
 msgid "about %s hour ago"
-msgstr "約 %s 時間前"
+msgid_plural "about %s hours ago"
+msgstr[0] "%s 時間前"
+msgstr[1] "%s 時間前"
 
-#: c:\temp\mystique\lib/core.php:88
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:88
+#, php-format
 msgid "about %s minute ago"
-msgstr "約 %s 分前"
+msgid_plural "about %s minutes ago"
+msgstr[0] "%s 分前"
+msgstr[1] "%s 分前"
 
-#
-#: c:\temp\mystique\lib/core.php:89
+#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:89
+#, php-format
 msgid "about %s second ago"
-msgstr "約 %s 秒前"
+msgid_plural "about %s seconds ago"
+msgstr[0] "%s 秒前"
+msgstr[1] "%s 秒前"
+
 
 #: c:\temp\mystique\lib/core.php:340
 msgid "Share this post!"
