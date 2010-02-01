@@ -408,7 +408,7 @@ msgstr "詳細"
 
 #: c:\temp\mystique\lib/admin.php:343
 msgid "User CSS"
-msgstr "CSS クラス"
+msgstr "オリジナルCSS"
 
 #: c:\temp\mystique\lib/admin.php:353
 msgid "Layout style"
