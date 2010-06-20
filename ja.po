@@ -1,1283 +1,1539 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Mystique Japanese Translation\n"
+"Project-Id-Version: Mystique 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-18 12:40+0200\n"
+"POT-Creation-Date: 2010-06-20 13:56+0900\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Yuki Matsukura <matsubokkuri@gmail.com>\n"
-"Language-Team: Yuki Matsukura\n"
-"Last-Translator: Yuki Matsukura\n"
+"Last-Translator: Takayuki Miyauchi <miya@theta.ne.jp>\n"
+"Language-Team: Yuki Matsukura <matsubokkuri@gmail.com>\n"
 "MIME-Version: 1.0\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SearchPath-0: c:\\wamp\\www\\wordpress\\wp-content\\themes"
+"\\mystique\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: ..\n"
 
-#: c:\temp\mystique\404.php:12
-msgid "The requested page was not found"
-msgstr "ページが見つかりませんでした"
+#: extensions/xtra-nav/xtra-nav.php:14
+msgid "Extra navigation items"
+msgstr "ナビゲーション項目の拡張"
 
-#
-#: c:\temp\mystique\archive.php:19
-msgid "Posts tagged %s"
-msgstr "%sタグのついている投稿"
+#: extensions/xtra-nav/xtra-nav.php:14
+msgid "(Leave blank to disable)"
+msgstr "（無効にするためには空白に）"
 
-#: c:\temp\mystique\archive.php:21
-#: c:\temp\mystique\archive.php:23
-msgid "Archive for %s"
-msgstr "%1$s のアーカイブ"
+#: extensions/xtra-nav/xtra-nav.php:18
+msgid "Twitter ID"
+msgstr "Twitter ID"
 
-#: c:\temp\mystique\archive.php:23
-msgid "F, Y"
-msgstr "Y年n月"
+#: extensions/xtra-nav/xtra-nav.php:23
+msgid "RSS URL"
+msgstr "RSS URL"
 
-#: c:\temp\mystique\archive.php:25
-msgid "Archive for year %s"
-msgstr "%s のアーカイブ|日別アーカイブのページ"
+#: extensions/xtra-nav/xtra-nav.php:44
+msgid "Follow me on Twitter"
+msgstr "Twitterでフォローする"
 
-#: c:\temp\mystique\archive.php:25
-msgid "Y"
-msgstr "Y年"
-
-#: c:\temp\mystique\archive.php:27
-msgid "Author archive"
-msgstr "投稿者のアーカイブ"
-
-#: c:\temp\mystique\archive.php:29
-msgid "Blog Archives"
-msgstr "ブログアーカイブ"
-
-#: c:\temp\mystique\archive.php:41
-#: c:\temp\mystique\author.php:53
-#: c:\temp\mystique\index.php:19
-msgid "&laquo; Older Entries"
-msgstr "&laquo; 前ページへ"
-
-#: c:\temp\mystique\archive.php:42
-#: c:\temp\mystique\author.php:54
-#: c:\temp\mystique\index.php:20
-msgid "Newer Entries &raquo;"
-msgstr "次ページへ &raquo;"
-
-#: c:\temp\mystique\archive.php:49
-msgid "Sorry, but there aren't any posts in the %s category yet."
-msgstr "%s カテゴリーに投稿はありません。"
-
-#: c:\temp\mystique\archive.php:51
-msgid "Sorry, but there aren't any posts within this date."
-msgstr "この日付に投稿はありません。"
-
-#: c:\temp\mystique\archive.php:54
-msgid "Sorry, but there aren't any posts by %s yet."
-msgstr "%s からの投稿はありません。"
-
-#: c:\temp\mystique\archive.php:56
-msgid "No posts found."
-msgstr "投稿は見つかりませんでした。"
-
-#: c:\temp\mystique\author.php:27
-msgid "This user hasn't shared any biographical information"
-msgstr "このユーザーではテンプレートの編集はできません。"
-
-#: c:\temp\mystique\author.php:32
-msgid "Homepage:"
-msgstr "ホームページ:"
-
-#: c:\temp\mystique\author.php:33
-msgid "Yahoo Messenger:"
-msgstr "Yahoo IM"
-
-#: c:\temp\mystique\author.php:34
-msgid "Jabber/GTalk:"
-msgstr "Jabber / Google Talk"
-
-#: c:\temp\mystique\author.php:35
-msgid "AIM:"
-msgstr "AIM"
-
-#: c:\temp\mystique\author.php:42
-#: c:\temp\mystique\image.php:31
-msgid "Posts by %s"
-msgstr "%s による投稿"
-
-#: c:\temp\mystique\author.php:59
-msgid "No posts found by this author."
-msgstr "この文字列への参照は見つかりませんでした。"
-
-#: c:\temp\mystique\comments.php:3
-msgid "Enter your password to view comments"
-msgstr "コメントを読むにはパスワードを入力してください"
-
-#: c:\temp\mystique\comments.php:42
-msgid "Related Posts"
-msgstr "関連記事"
-
-#: c:\temp\mystique\comments.php:43
-msgid "Trackbacks (%s)"
-msgstr "トラックバック"
-
-#: c:\temp\mystique\comments.php:44
-#: c:\temp\mystique\comments.php:50
-msgid "Comments (%s)"
-msgstr "コメント"
-
-#: c:\temp\mystique\comments.php:82
-msgid "No comments yet."
-msgstr "コメントはまだありません。"
-
-#: c:\temp\mystique\comments.php:91
-msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr "コメントを投稿するには<a href=\"%s\">ログイン</a>してください。"
-
-#: c:\temp\mystique\comments.php:102
-#: c:\temp\mystique\comments.php:128
-#: c:\temp\mystique\comments.php:129
-msgid "Name (required)"
-msgstr "名前 (必須)"
-
-#: c:\temp\mystique\comments.php:103
-#: c:\temp\mystique\comments.php:132
-#: c:\temp\mystique\comments.php:133
-msgid "E-mail (required, will not be published)"
-msgstr "メール (必須)"
-
-#: c:\temp\mystique\comments.php:104
-#: c:\temp\mystique\comments.php:136
-#: c:\temp\mystique\comments.php:137
-msgid "Website"
-msgstr "ウェブサイト"
-
-#: c:\temp\mystique\comments.php:115
-msgid "Logged in as %s."
-msgstr "%s としてログイン中。"
-
-#: c:\temp\mystique\comments.php:117
-msgid "Log out of this account"
-msgstr "このアカウントからログアウト"
-
-#: c:\temp\mystique\comments.php:117
-msgid "Logout &raquo;"
-msgstr "ログアウト &raquo;"
-
-#: c:\temp\mystique\comments.php:122
-msgid "Welcome back <strong>%s</strong>."
-msgstr "お帰りなさい <strong>%s</strong>."
-
-#: c:\temp\mystique\comments.php:123
-msgid "Change &raquo;"
-msgstr "変更する &raquo;"
-
-#: c:\temp\mystique\comments.php:144
-msgid "Type your comment"
-msgstr "エラー: コメントを入力してください。"
-
-#: c:\temp\mystique\comments.php:153
-msgid "Spam protection: Sum of %1$s + %2$s = ?"
-msgstr "スパムとしてマーク"
-
-#: c:\temp\mystique\comments.php:162
-msgid "Submit Comment"
-msgstr "コメント送信"
-
-#: c:\temp\mystique\comments.php:164
-msgid "Cancel Reply"
-msgstr "返信をキャンセル"
-
-#: c:\temp\mystique\comments.php:188
-msgid "No trackbacks yet."
-msgstr "トラックバックはまだありません。"
-
-#: c:\temp\mystique\comments.php:205
-msgid "No comments"
-msgstr "コメントはありません"
-
-#: c:\temp\mystique\comments.php:205
-msgid "1 comment"
-msgstr "コメント 1 件"
-
-#: c:\temp\mystique\comments.php:205
-msgid "% comments"
-msgstr "コメント % 件"
-
-#: c:\temp\mystique\comments.php:223
-msgid "Comments are closed."
-msgstr "コメントは受け付けていません。"
-
-#: c:\temp\mystique\featured-posts.php:42
-msgid "Read more"
-msgstr "続きを読む..."
-
-#: c:\temp\mystique\header.php:11
-msgid "Page %s &laquo;"
-msgstr "&laquo; 前ページへ"
-
-#: c:\temp\mystique\header.php:51
+#: extensions/xtra-nav/xtra-nav.php:47 lib/shortcodes.php:266
 msgid "RSS Feeds"
 msgstr "RSSフィード"
 
-#: c:\temp\mystique\header.php:59
-msgid "Follow me on Twitter!"
-msgstr "Twitterでフォローする"
-
-#: c:\temp\mystique\header.php:68
-msgid "You are Home"
-msgstr "ホーム"
-
-#: c:\temp\mystique\header.php:68
-#: c:\temp\mystique\header.php:70
-msgid "Home"
-msgstr "ホーム"
-
-#: c:\temp\mystique\header.php:70
-msgid "Click for Home"
-msgstr "クリックしてホーム"
-
-#: c:\temp\mystique\image.php:19
-msgid "More &gt;"
+#: extensions/featured-posts/featured-posts.php:62
+msgid "More"
 msgstr "続きを読む &gt;"
 
-#
-#: c:\temp\mystique\image.php:31
-msgid "This entry was posted by %1$s on %2$s at %3$s, and is filled under %4$s. Follow any responses to this post through %5$s."
-msgstr "この記事は%1$sによって、%2$s %3$sに投稿されました。%4$s カテゴリに属しています。最新の返信は%5$sで購読できます。"
-
-#: c:\temp\mystique\image.php:35
-msgid "You can <a%1$s>leave a response</a> or <a%2$s>trackback</a> from your own site."
-msgstr "<a%1$s>コメントを残すか</a>、ご自分のサイトから<a%2$s>トラックバック</a>できます。"
-
-#: c:\temp\mystique\image.php:39
-msgid "Responses are currently closed, but you can <a%1$s>trackback</a> from your own site."
-msgstr "現在コメントは受け付けておりませんが、ご自分のサイトから<a href=\"%s\" rel=\"trackback\">トラックバック</a>を送ることはできます。"
-
-#: c:\temp\mystique\image.php:43
-msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
-msgstr "このページの一番下でコメントを残すことができます。トラックバック / ピンバックは現在受け付けていません。"
-
-#: c:\temp\mystique\image.php:47
-msgid "Both comments and pings are currently closed."
-msgstr "現在コメント、トラックバックともに受け付けておりません。"
-
-#: c:\temp\mystique\image.php:49
-msgid "Edit this entry"
-msgstr "この投稿を編集 "
-
-#: c:\temp\mystique\image.php:61
-msgid "Sorry, no attachments matched your criteria."
-msgstr "該当する投稿は見つかりませんでした。"
-
-#: c:\temp\mystique\index.php:24
-msgid "No posts found"
-msgstr "投稿は見つかりませんでした。"
-
-#: c:\temp\mystique\index.php:25
-msgid "Sorry, but you are looking for something that isn't here."
-msgstr "お探しの物はここにはありません。"
-
-#: c:\temp\mystique\post.php:19
-msgid "Permanent Link:"
-msgstr "%s のパーマリンク"
-
-#: c:\temp\mystique\post.php:22
-msgid "M jS"
-msgstr "Y年n月j日"
-
-#: c:\temp\mystique\post.php:26
-msgid "Posted by %1$s in %2$s"
-msgstr "投稿者: %1$s (%2$s)"
-
-#: c:\temp\mystique\post.php:29
-msgid "Edit"
-msgstr "編集"
-
-#
-#: c:\temp\mystique\post.php:61
-msgid "%1$s (%2$s topics)"
-msgstr "%1 (%2 記事)"
-
-#: c:\temp\mystique\search.php:15
-#: c:\temp\mystique\searchform.php:5
-#: c:\temp\mystique\searchform.php:10
-#: c:\temp\mystique\lib/core.php:52
-msgid "Search"
-msgstr "検索"
-
-#: c:\temp\mystique\search.php:18
-msgid "Search Results for %s"
-msgstr "&#8220;%s&#8221; の検索結果"
-
-#: c:\temp\mystique\search.php:42
-msgid "Nothing found."
-msgstr "見つかりませんでした。"
-
-#: c:\temp\mystique\search.php:42
-msgid "Try a different search?"
-msgstr "別の単語で検索してください。"
-
-#: c:\temp\mystique\search.php:46
-msgid "What do you wish to search for?"
-msgstr "WYSIWYGモードに切り替えますか ?"
-
-#: c:\temp\mystique\searchform.php:11
-msgid "You have searched the archives for %s"
-msgstr "%s の検索結果を表示しています。"
-
-#: c:\temp\mystique\searchform.php:13
-msgid "Type a valid search term..."
-msgstr "検索..."
-
-#: c:\temp\mystique\sidebar.php:22
-msgid "My latest tweets"
-msgstr "最新のバージョンをインストールしています。"
-
-#: c:\temp\mystique\sidebar.php:30
-msgid "Blogroll"
-msgstr "ブログロール"
-
-#: c:\temp\mystique\sidebar2.php:8
-msgid "2nd sidebar is active. Add widgets here from the Dashboard"
-msgstr "ウィジェットをここにドラッグすると、設定を維持したままウェブサイトから取り除かれます。"
-
-#: c:\temp\mystique\single.php:35
-msgid "Pages:"
-msgstr "ページ:"
-
-#: c:\temp\mystique\single.php:39
-msgid "Tags:"
-msgstr "タグ:"
-
-#: c:\temp\mystique\lib/admin.php:232
-msgid "You are not authorised to perform this operation."
-msgstr "このページを編集する権限がありません。"
-
-#: c:\temp\mystique\lib/admin.php:310
-#: c:\temp\mystique\lib/admin.php:874
-#: c:\temp\mystique\lib/admin.php:875
-msgid "Mystique settings"
-msgstr "Mystiqueの設定"
-
-#: c:\temp\mystique\lib/admin.php:316
-msgid "Settings saved. %s"
-msgstr "設定を保存しました。"
-
-#: c:\temp\mystique\lib/admin.php:316
-msgid "View site"
-msgstr "サイトを見る"
-
-#: c:\temp\mystique\lib/admin.php:320
-msgid "Please upload a valid image file!"
-msgstr "画像ファイルをアップロードしてください。"
-
-#: c:\temp\mystique\lib/admin.php:321
-msgid "The file you uploaded doesn't seem to be a valid JPEG, PNG or GIF image"
-msgstr "JPEG、PNG、GIFファイルをアップロードしてください。"
-
-#: c:\temp\mystique\lib/admin.php:322
-msgid "The image could not be saved on your server"
-msgstr "この作業はあなたのデータベースの大きさによっては数分かかることがありますので、あせらずお待ちください。"
-
-#: c:\temp\mystique\lib/admin.php:327
-msgid "Error: %s"
-msgstr "エラー:"
-
-#: c:\temp\mystique\lib/admin.php:334
-msgid "General"
-msgstr "一般"
-
-#: c:\temp\mystique\lib/admin.php:335
-msgid "Design/colors"
-msgstr "デザイン・配色"
-
-#: c:\temp\mystique\lib/admin.php:336
-msgid "Navigation"
-msgstr "ナビゲーション"
-
-#: c:\temp\mystique\lib/admin.php:337
-msgid "Posts"
-msgstr "投稿"
-
-#: c:\temp\mystique\lib/admin.php:338
-msgid "SEO"
-msgstr "SEO"
-
-#: c:\temp\mystique\lib/admin.php:340
-msgid "Ads"
-msgstr "広告"
-
-#: c:\temp\mystique\lib/admin.php:342
-msgid "Advanced"
-msgstr "詳細"
-
-#: c:\temp\mystique\lib/admin.php:343
-msgid "User CSS"
-msgstr "オリジナルCSS"
-
-#: c:\temp\mystique\lib/admin.php:353
-msgid "Layout style"
-msgstr "レイアウト"
-
-#: c:\temp\mystique\lib/admin.php:353
-msgid "Use page templates to apply these only to specific pages"
-msgstr "ある特定のページのみレイアウトを変更したい場合合は、ページテンプレートを使ってください。"
-
-#: c:\temp\mystique\lib/admin.php:389
-msgid "Imageless layout"
-msgstr "画像を表示しない"
-
-#: c:\temp\mystique\lib/admin.php:389
-msgid "No background images; reduces page load downto just a few KB, with the cost of less graphic details"
-msgstr "背景画像無し：数キロバイト軽くなり、ページ表示が早くなります。"
-
-#: c:\temp\mystique\lib/admin.php:394
-msgid "Footer content"
-msgstr "フッター"
-
-#: c:\temp\mystique\lib/admin.php:394
-msgid "You can post HTML code"
-msgstr "HTMLを追加できます"
-
-#: c:\temp\mystique\lib/admin.php:394
-msgid "HTML code is disallowed"
-msgstr "HTMLの利用は許可されていません"
-
-#
-#: c:\temp\mystique\lib/admin.php:398
-msgid "Use the following short codes for convenient adjustments: <br />%s"
-msgstr "以下のコードを使ってください：<br />%s"
-
-#: c:\temp\mystique\lib/admin.php:406
-msgid "Loading site preview..."
-msgstr "プレビューを読み込み中"
-
-#: c:\temp\mystique\lib/admin.php:414
-#: c:\temp\mystique\lib/admin.php:426
-msgid "Sidebar(s) vs Main Content ratio"
-msgstr "サイドバーとメインコンテンツの横幅の割合"
-
-#: c:\temp\mystique\lib/admin.php:436
-msgid "Preferred font style"
-msgstr "お好みのフォント"
-
-#: c:\temp\mystique\lib/admin.php:436
-msgid "Font priority and their availability"
-msgstr "利用するフォントの優先度を設定します"
-
-#: c:\temp\mystique\lib/admin.php:447
-msgid "Color scheme"
-msgstr "配色"
-
-#: c:\temp\mystique\lib/admin.php:451
-msgid "Not available with <em>imageless</em> setting"
-msgstr "画像をアップロードしてください"
-
-#: c:\temp\mystique\lib/admin.php:478
-msgid "Custom logo image"
-msgstr "ヘッダー画像"
-
-#: c:\temp\mystique\lib/admin.php:478
-msgid "Show a logo image instead of text; Upload the graphic file from your computer"
-msgstr "文字の替わりに画像を表示するためには画像をアップロードしてください"
-
-#: c:\temp\mystique\lib/admin.php:484
-#: c:\temp\mystique\lib/admin.php:499
-msgid "Remove current image"
-msgstr "ヘッダー画像"
-
-#: c:\temp\mystique\lib/admin.php:487
-#: c:\temp\mystique\lib/admin.php:502
-msgid "Directory %s doesn't have write permissions - can't upload!"
-msgstr "このファイルをサーバへ戻すためにアップロードしますか?"
-
-#: c:\temp\mystique\lib/admin.php:487
-#: c:\temp\mystique\lib/admin.php:502
-msgid "Check your upload path in Settings/Misc or CHMOD this directory to 755/777.<br />Contact your host if you don't know how"
-msgstr "その他の設定→アップロードするファイル保存場所、パーミッションをチェックしてください。<br />やり方がわからない場合は管理者にお問い合わせください"
-
-#: c:\temp\mystique\lib/admin.php:493
-msgid "Custom background image"
-msgstr "ヘッダー画像"
-
-#: c:\temp\mystique\lib/admin.php:493
-msgid "Upload a new background/header image to replace the default one"
-msgstr "ヘッダーの背景画像をアップロードしてください。アップロードするとデフォルトの文言を上書きします。"
-
-#: c:\temp\mystique\lib/admin.php:508
-msgid "Background color"
-msgstr "背景色"
-
-#: c:\temp\mystique\lib/admin.php:508
-msgid "Leave Black (#000000) to keep the default background"
-msgstr "デフォルトは黒(#000000)です。"
-
-#: c:\temp\mystique\lib/admin.php:521
-msgid "Top navigation shows"
-msgstr "上部にナビゲーションを表示する"
-
-#: c:\temp\mystique\lib/admin.php:524
-msgid "Pages"
-msgstr "ページ"
-
-#: c:\temp\mystique\lib/admin.php:525
-msgid "Categories"
-msgstr "カテゴリ"
-
-#: c:\temp\mystique\lib/admin.php:526
-msgid "Links"
-msgstr "リンク"
-
-#: c:\temp\mystique\lib/admin.php:534
-msgid "from category"
-msgstr "親カテゴリー"
-
-#: c:\temp\mystique\lib/admin.php:547
-msgid "No links found"
-msgstr "リンクは見つかりませんでした。"
-
-#: c:\temp\mystique\lib/admin.php:556
-msgid "Exclude from navigation"
-msgstr "ナビゲーションから除外"
-
-#: c:\temp\mystique\lib/admin.php:556
-msgid "Check the items you wish to hide from the main menu"
-msgstr "メインメニューから除外するページにチェックしてください"
-
-#: c:\temp\mystique\lib/admin.php:566
-msgid "(Use the private property to hide other links)"
-msgstr "公開鍵認証を行うには, FileZilla に使用する秘密鍵を指示する必要があります."
-
-#: c:\temp\mystique\lib/admin.php:632
-msgid "View page"
-msgstr "ページを表示"
-
-#: c:\temp\mystique\lib/admin.php:655
-msgid "Post previews"
-msgstr "記事の表示方法"
-
-#: c:\temp\mystique\lib/admin.php:655
-msgid "The way posts are displayed on blog homepage and archive pages"
-msgstr "記事がホームページとアーカイブページに表示される内容"
-
-#: c:\temp\mystique\lib/admin.php:658
-msgid "Full"
-msgstr "全て"
-
-#: c:\temp\mystique\lib/admin.php:659
-msgid "Excerpts"
-msgstr "引用"
-
-#: c:\temp\mystique\lib/admin.php:660
-msgid "Titles only"
-msgstr "タイトルのみ"
-
-#: c:\temp\mystique\lib/admin.php:667
-msgid "Post thumbnail size"
-msgstr "記事のサムネイル画像サイズ"
-
-#
-#: c:\temp\mystique\lib/admin.php:667
-msgid "Note that this only works for images you upload from now on, older images will be browser-resized. You should use the %s plugin to create missing image sizes"
-msgstr "今からアップロードされた画像のみに適応されます。不足画像を生成するためには%sプラグインを利用してください"
-
-#: c:\temp\mystique\lib/admin.php:671
-msgid "Small: 64 x 64"
-msgstr "小: 64 x 64"
-
-#: c:\temp\mystique\lib/admin.php:672
-msgid "Medium: 100 x 100"
-msgstr "中: 100 x 100"
-
-#: c:\temp\mystique\lib/admin.php:673
-msgid "WP's Media setting: %s"
-msgstr "ワードプレスのメディア設定"
-
-#: c:\temp\mystique\lib/admin.php:680
-msgid "Enable \"Share This Post\" feature"
-msgstr "ソーシャルブックマークボタンを表示"
-
-#: c:\temp\mystique\lib/admin.php:680
-msgid "Uncheck this if you're using a social bookmaring plugin"
-msgstr "他にソーシャルブックマークプラグインを使っている場合はチェックを外してください"
-
-#: c:\temp\mystique\lib/admin.php:685
-msgid "Featured content source"
-msgstr "注目の記事の引用元カテゴリ"
-
-#: c:\temp\mystique\lib/admin.php:685
-msgid "The last 5 posts from this category will be shown in the featured content area (in random order)"
-msgstr "このカテゴリから最新の5つの記事が注目の記事エリアに表示されます（順番はランダム）"
-
-#: c:\temp\mystique\lib/admin.php:690
-msgid "- All categories"
-msgstr "すべてのカテゴリー"
-
-#: c:\temp\mystique\lib/admin.php:699
-msgid "Where to display the featured posts?"
-msgstr "注目の記事を表示する場所"
-
-#: c:\temp\mystique\lib/admin.php:702
-msgid "On pages that use the Featured Posts template"
-msgstr ""
-
-#: c:\temp\mystique\lib/admin.php:703
-msgid "On the home page"
-msgstr "ホームページ上"
-
-#: c:\temp\mystique\lib/admin.php:704
-msgid "On all pages, including home"
-msgstr "ホームページを含めた全てのページに"
-
-#: c:\temp\mystique\lib/admin.php:705
-msgid "On all posts"
-msgstr "全ての記事に"
-
-#: c:\temp\mystique\lib/admin.php:706
-msgid "On all pages and posts"
-msgstr "すべての記事とページに"
-
-#: c:\temp\mystique\lib/admin.php:712
-msgid "Maximum number of featured posts"
-msgstr "表示する投稿数"
-
-#: c:\temp\mystique\lib/admin.php:719
-msgid "Expand the &laquo;read more&raquo; button with more content"
-msgstr "&laquo;もっと読む&raquo; ボタンをクリックして展開する。"
-
-#: c:\temp\mystique\lib/admin.php:719
-msgid "Uncheck if want the button to link to the single post page"
-msgstr "もっと読むボタンのリンクを記事のURLへリンクさせたい場合チェックを外してください。"
-
-#: c:\temp\mystique\lib/admin.php:724
-msgid "Show related posts next to comments"
-msgstr "関連記事をコメントの隣に表示"
-
-#: c:\temp\mystique\lib/admin.php:729
+#: extensions/featured-posts/featured-posts.php:76
+#, php-format
+msgid "No featured posts found older than %s days."
+msgstr "フィーチャー記事がありません"
+
+#: extensions/featured-posts/featured-posts.php:95
+msgid "Featured"
+msgstr "フィーチャー"
+
+#: extensions/featured-posts/featured-posts.php:129
+msgid "Error while featuring posts"
+msgstr "エラー"
+
+#: extensions/featured-posts/featured-posts.php:200
+msgid "Featured posts"
+msgstr "フィーチャー記事"
+
+#: extensions/featured-posts/featured-posts.php:200
+#, php-format
+msgid "You can mark posts as featured on the %s page"
+msgstr "%s ページをフィーチャーとしてマークできます"
+
+#: extensions/featured-posts/featured-posts.php:206
+msgid "Show on"
+msgstr "表示される"
+
+#: extensions/featured-posts/featured-posts.php:210
+msgid "Pages that use the Featured posts template"
+msgstr "フィーチャーテンプレートを使っているページ"
+
+#: extensions/featured-posts/featured-posts.php:215
+msgid "Home page"
+msgstr "ホームページ"
+
+#: extensions/featured-posts/featured-posts.php:220
+msgid "Single post pages"
+msgstr "シングルポストページ"
+
+#: extensions/featured-posts/featured-posts.php:225
+msgid "Archive pages (Category, Tags etc)"
+msgstr "アーカイブページ"
+
+#: extensions/featured-posts/featured-posts.php:230
+msgid "404 pages"
+msgstr "404 ページ"
+
+#: extensions/featured-posts/featured-posts.php:235
+msgid "Search page"
+msgstr "検索ページ"
+
+#: extensions/featured-posts/featured-posts.php:240
+msgid "All other pages"
+msgstr "その他のページ"
+
+#: extensions/featured-posts/featured-posts.php:247
+msgid "Maximum number of posts to display"
+msgstr "最大投稿数"
+
+#: extensions/featured-posts/featured-posts.php:254
+msgid "Slide delay"
+msgstr "スライドショー間隔"
+
+#: extensions/featured-posts/featured-posts.php:257
+msgid "seconds"
+msgstr "秒"
+
+#: extensions/featured-posts/featured-posts.php:262
+msgid "Don't show posts older than"
+msgstr "より古い投稿を表示しない"
+
+#: extensions/featured-posts/featured-posts.php:265
+msgid "days"
+msgstr "日"
+
+#: extensions/ip2country/ip2country.php:48
 msgid "Show comment author's country flag"
 msgstr "コメント投稿者ごとに国旗を表示する"
 
-#: c:\temp\mystique\lib/admin.php:729
+#: extensions/ip2country/ip2country.php:48
 msgid "May slow down page loading"
 msgstr "ページ表示を遅くする可能性があります"
 
-#: c:\temp\mystique\lib/admin.php:739
-msgid "Additional site optimization for search engines"
-msgstr "SEO設定"
-
-#: c:\temp\mystique\lib/admin.php:739
-msgid "Uncheck if you are using a SEO plugin!"
-msgstr "SEO関連のプラグインを使っている場合はチェックしないでください。"
-
-#: c:\temp\mystique\lib/admin.php:746
-msgid "What does this do?"
-msgstr "チェックした場合:"
-
-#: c:\temp\mystique\lib/admin.php:748
-msgid "enables canonical URLs for comments (duplicate content fix)"
-msgstr "Canonical URLを有効にする （重複コンテンツを防ぐため規格）"
-
-#: c:\temp\mystique\lib/admin.php:749
-msgid "generates unique titles for posts with multiple comment pages (prevents duplicate titles)"
-msgstr "複数ページにわたるコメントがある場合、記事毎に一意のタイトルを生成する。（重複タイトルを防ぐため）"
-
-#: c:\temp\mystique\lib/admin.php:750
-msgid "no keywords are generated because they are <a %s>useless</a>"
-msgstr "metaタグのkeywordを生成しない。metaタグのkeywordはサーチエンジンに評価されないため。<a %s>参考記事</a>"
-
-#: c:\temp\mystique\lib/admin.php:764
-msgid "Advertisment blocks"
-msgstr "広告ブロック"
-
-#
-#: c:\temp\mystique\lib/admin.php:764
-msgid "Use the %s short code to insert these ads into posts, text widgets or footer"
-msgstr "記事、テキストまたはフッターへ広告コードを挿入する場合は %s を使ってください。"
-
-#: c:\temp\mystique\lib/admin.php:765
-msgid "Example:"
-msgstr "例:"
-
-#: c:\temp\mystique\lib/admin.php:771
-msgid "Ad code #%s:"
-msgstr "広告コード #%s"
-
-#: c:\temp\mystique\lib/admin.php:787
-msgid "Use jQuery"
-msgstr "jQueryを利用する"
-
-#: c:\temp\mystique\lib/admin.php:787
-msgid "For testing purposes only. Only uncheck if you know what you're doing!"
-msgstr "テスト段階。利用には注意してください。"
-
-#: c:\temp\mystique\lib/admin.php:792
-msgid "Enable AJAX on comment pagination"
-msgstr "ページャをAJAXで行う"
-
-#: c:\temp\mystique\lib/admin.php:792
-msgid "Navigate trough comment pages without refreshing (faster load, but may be incompatible with some plugins)"
-msgstr "コメントページをリロードなしに表示 （便利ですが、動作しないプラグインが発生するかもしれません）"
-
-#: c:\temp\mystique\lib/admin.php:797
-msgid "Enable theme built-in lightbox on all image links"
-msgstr "テーマに組み込まれているlightboxを使う"
-
-#: c:\temp\mystique\lib/admin.php:797
-msgid "Uncheck if you prefer a lightbox plugin"
-msgstr "lightboxプラグインを利用したい場合はチェックを外してください"
-
-#: c:\temp\mystique\lib/admin.php:802
-msgid "Remove Mystique settings from the database after theme switch"
-msgstr "テーマを変更したらテーマに関する設定を全て削除する"
-
-#: c:\temp\mystique\lib/admin.php:802
-msgid "Uncheck this if you plan to keep Mystique as your default theme!"
-msgstr "Mystiqueをデフォルトのテーマにする場合はチェックを外してください。"
-
-#: c:\temp\mystique\lib/admin.php:814
-msgid "Document head code"
-msgstr "headタグ内に挿入されるコードコード"
-
-#
-#: c:\temp\mystique\lib/admin.php:814
-msgid "PHP code to insert in the %s section of the XHTML document. Useful if you have plugins that require you to add stuff here, adding Analytics code etc."
-msgstr "XHTMLの %s セクションへ追加するためのPHPコード。アナリティクスなど、ここへ追加するプラグインがあったら便利です。"
-
-#: c:\temp\mystique\lib/admin.php:815
-msgid "To output HTML only, close the PHP tag first."
-msgstr "HTMLを記入する場合は、PHPの終了タグを行頭に記入してください。"
-
-#: c:\temp\mystique\lib/admin.php:817
-#: c:\temp\mystique\lib/admin.php:838
-msgid "Examples and helpers:"
-msgstr "例"
-
-#: c:\temp\mystique\lib/admin.php:836
-msgid "Modify anything related to design using CSS code"
-msgstr "見た目に関する変更はCSSを使って調整してください。"
-
-#: c:\temp\mystique\lib/admin.php:836
-msgid "Check %s to see existing theme classes and properties"
-msgstr "既存のCSSを閲覧するためには %s をチェックしてください。"
-
-#: c:\temp\mystique\lib/admin.php:836
-msgid "Avoid modifying theme files directly; use this option instead to preserve your changes after update"
-msgstr "テーマファイルを直接編集する替わりにこのオプションを使ってください。テーマをアップデートしてもこの内容は保存されます。"
-
-#: c:\temp\mystique\lib/admin.php:859
-msgid "Save Changes"
-msgstr "変更を保存"
-
-#: c:\temp\mystique\lib/admin.php:859
-msgid "Reset to Defaults"
-msgstr "初期値に戻す"
-
-#: c:\temp\mystique\lib/codehelpers.php:5
-msgid "Insert Ad slot #1 in every post and page"
-msgstr "広告ブロック#1を全ての投稿とページに表示する"
-
-#: c:\temp\mystique\lib/codehelpers.php:16
-msgid "Insert Ad slot #2 at every 5 comments"
-msgstr "広告ブロック#2をコメント5つ毎に表示する"
-
-#: c:\temp\mystique\lib/codehelpers.php:25
-msgid "Replace blog description text with Ad #4"
-msgstr "ブログの説明部分を広告ブロック#4で置き換える"
-
-#: c:\temp\mystique\lib/codehelpers.php:39
-msgid "Black navigation style"
-msgstr "ブラックナビゲーション"
-
-#: c:\temp\mystique\lib/codehelpers.php:67
-msgid "Alternate header image"
-msgstr "ヘッダ画像の置き換え"
-
-#: c:\temp\mystique\lib/codehelpers.php:71
-msgid "Hide RSS button"
-msgstr "RSSボタンを隠す"
-
-#: c:\temp\mystique\lib/codehelpers.php:75
-msgid "Hide Twitter button"
-msgstr "Twitterボタンを隠す。"
-
-#: c:\temp\mystique\lib/codehelpers.php:79
-msgid "Set a fluid page width"
-msgstr "横幅をウィンドウにフィット"
-
-#: c:\temp\mystique\lib/codehelpers.php:83
-msgid "Decrease site title text size"
-msgstr "タイトルの文字数を減らしてください"
-
-#: c:\temp\mystique\lib/codehelpers.php:87
-msgid "Hide post information bar"
-msgstr "投稿情報のバーを非表示"
-
-#: c:\temp\mystique\lib/codehelpers.php:91
-msgid "Change footer background color to light gray"
-msgstr "フッターの背景色をライトグレーに変更"
-
-#: c:\temp\mystique\lib/codehelpers.php:96
-msgid "Dark background footer"
-msgstr "暗めのフッター背景"
-
-#: c:\temp\mystique\lib/codehelpers.php:102
-msgid "Join navigation with main content"
-msgstr "ナビゲーションとメインコンテンツを統合する"
-
-#: c:\temp\mystique\lib/codehelpers.php:106
-msgid "Hide navigation"
-msgstr "ナビゲーションを隠す"
-
-#: c:\temp\mystique\lib/codehelpers.php:112
-msgid "Remove styling from tables"
-msgstr "tableのスタイルを削除する"
-
-#: c:\temp\mystique\lib/codehelpers.php:116
-msgid "Text-Justify post and page content"
-msgstr "横幅をウィンドウにフィット"
-
-#: c:\temp\mystique\lib/codehelpers.php:120
-msgid "Fixed custom background image"
-msgstr "背景画像をスクロールしない"
-
-#: c:\temp\mystique\lib/core.php:83
-msgid "about %s year ago"
-msgid_plural "about %s years ago"
-msgstr[0] "約 %s 年前"
-msgstr[1] "約 %s 年前"
-
-#: c:\temp\mystique\lib/core.php:84
-msgid "about %s month ago"
-msgid_plural "about %s months ago"
-msgstr[0] "%s ヶ月前"
-msgstr[1] "%s ヶ月前"
-
-#: c:\temp\mystique\lib/core.php:85
-msgid "about %s week ago"
-msgid_plural "about %s weeks ago"
-msgstr[0] "%s 週間前"
-msgstr[1] "%s 週間前"
-
-
-#: c:\temp\mystique\lib/core.php:86
-msgid "about %s day ago"
-msgid_plural "about %s days ago"
-msgstr[0] "%s 日前"
-msgstr[1] "%s 日前"
-
-
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:87
+#: archive.php:23
 #, php-format
-msgid "about %s hour ago"
-msgid_plural "about %s hours ago"
-msgstr[0] "%s 時間前"
-msgstr[1] "%s 時間前"
+msgid "Posts tagged %s"
+msgstr "%sタグのついている投稿"
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:88
+#: archive.php:25 archive.php:27 lib/core.php:298 lib/core.php:302
 #, php-format
-msgid "about %s minute ago"
-msgid_plural "about %s minutes ago"
-msgstr[0] "%s 分前"
-msgstr[1] "%s 分前"
+msgid "Archive for %s"
+msgstr "%1$s のアーカイブ"
 
-#: c:\wamp\www\wordpress\wp-content\themes\mystique/lib/core.php:89
+#: archive.php:27
+msgid "F, Y"
+msgstr "Y年n月"
+
+#: archive.php:29 lib/core.php:304
 #, php-format
-msgid "about %s second ago"
-msgid_plural "about %s seconds ago"
-msgstr[0] "%s 秒前"
-msgstr[1] "%s 秒前"
+msgid "Archive for year %s"
+msgstr "%s のアーカイブ|日別アーカイブのページ"
 
+#: archive.php:29 lib/core.php:300 lib/core.php:304
+msgid "Y"
+msgstr "Y年"
 
-#: c:\temp\mystique\lib/core.php:340
-msgid "Share this post!"
-msgstr "この投稿を共有"
+#: archive.php:31
+msgid "Author archive"
+msgstr "投稿者のアーカイブ"
 
-#: c:\temp\mystique\lib/core.php:460
-msgid "%1$s written by %2$s"
-msgstr "%1$s 投稿者：%2$s"
+#: archive.php:33
+msgid "Blog Archives"
+msgstr "ブログアーカイブ"
 
-#: c:\temp\mystique\lib/core.php:468
-msgid "Reply"
-msgstr "返信"
+#: archive.php:47
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "%s カテゴリーに投稿はありません。"
 
-#: c:\temp\mystique\lib/core.php:469
-msgid "Quote"
-msgstr "引用"
+#: archive.php:48
+msgid "Sorry, but there aren't any posts within this date."
+msgstr "この日付に投稿はありません。"
 
-#: c:\temp\mystique\lib/core.php:476
-msgid "Your comment is awaiting moderation."
-msgstr "あなたのコメントは管理者の承認待ちです。"
+#: archive.php:51
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "%s からの投稿はありません。"
 
-#: c:\temp\mystique\lib/editor.php:22
-msgid "Divider"
-msgstr "水平線"
+#: archive.php:52
+msgid "No posts found."
+msgstr "投稿は見つかりませんでした。"
 
-#: c:\temp\mystique\lib/editor.php:23
-msgid "Error text color"
-msgstr "文字色を選択"
+#: search.php:13 lib/core.php:427 searchform.php:5 searchform.php:10
+msgid "Search"
+msgstr "検索"
 
-#: c:\temp\mystique\lib/editor.php:24
-msgid "Error box"
-msgstr "データベースエラー: %s"
+#: search.php:15 lib/core.php:308
+#, php-format
+msgid "Search results for %s"
+msgstr "&#8220;%s&#8221; の検索結果"
 
-#: c:\temp\mystique\lib/mystique.php:55
-msgid "Default sidebar"
-msgstr "左サイドバー"
+#: search.php:31
+msgid "Nothing found."
+msgstr "見つかりませんでした。"
 
-#: c:\temp\mystique\lib/mystique.php:57
-msgid "This is the default sidebar, visible on 2 or 3 column layouts. If no widgets are active, the default theme widgets will be displayed instead."
-msgstr "これはデフォルトのサイドバーで、2カラムか3カラムのレイアウトで表示されます。ウィジェットが指定されていなければデフォルトのウィジェットが表示されます。"
+#: search.php:31
+msgid "Try a different search?"
+msgstr "別の単語で検索してください。"
 
-#: c:\temp\mystique\lib/mystique.php:65
-msgid "Secondary sidebar"
-msgstr "左サイドバー"
+#: search.php:35
+msgid "What do you wish to search for?"
+msgstr "何を探しますか？"
 
-#: c:\temp\mystique\lib/mystique.php:67
-msgid "This sidebar is active only on a 3 column setup. "
-msgstr "この投稿は %1$s %2$s %3$s に %4$s カテゴリーに公開されました。"
+#: index.php:23
+msgid "No posts found"
+msgstr "投稿は見つかりませんでした。"
 
-#: c:\temp\mystique\lib/mystique.php:75
-msgid "Footer"
-msgstr "フッター"
+#: index.php:24
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "お探しの物はここにはありません。"
 
-#: c:\temp\mystique\lib/mystique.php:77
-msgid "You can add between 1 and 6 widgets here (3 or 4 are optimal). They will adjust their size based on the widget count. "
-msgstr "1個から6個のウィジェットを追加できます（3つか4つが最適）。ウィジェット数に応じて横幅は自動調整されます。"
+#: sidebar.php:26 lib/widgets.php:415
+msgid "My latest tweets"
+msgstr "最新のバージョンをインストールしています。"
 
-#: c:\temp\mystique\lib/mystique.php:85
-msgid "Footer (slide 2)"
-msgstr "フッター (2ページ目)"
+#: sidebar.php:34
+msgid "Blogroll"
+msgstr "ブログロール"
 
-#: c:\temp\mystique\lib/mystique.php:87
-#: c:\temp\mystique\lib/mystique.php:97
-#: c:\temp\mystique\lib/mystique.php:107
-msgid "Only visible if jQuery is enabled. "
-msgstr "もしいくつかのエラーが出るなら, 設定は正しくありません."
-
-#: c:\temp\mystique\lib/mystique.php:95
-msgid "Footer (slide 3)"
-msgstr "フッター (3ページ目)"
-
-#: c:\temp\mystique\lib/mystique.php:105
-msgid "Footer (slide 4)"
-msgstr "フッター (4ページ目)"
-
-#: c:\temp\mystique\lib/settings.php:66
-msgid "You can configure Mystique from the <a%s>theme settings</a> page."
-msgstr "FileZilla自身の設定ディレクトリから設定を取り込むことができません."
-
-#
-#: c:\temp\mystique\lib/shortcodes.php:17
-msgid "%s: Widget class not found. Make sure this widget exists and the class name is correct"
-msgstr "%s: ウィジェットclassが見つかりませんでした。 ウィジェットが存在し、class指定が正しいことを確認してください。"
-
-#: c:\temp\mystique\lib/shortcodes.php:52
-msgid "User name (required)"
-msgstr "ユーザ名を明確にしなければいけません."
-
-#: c:\temp\mystique\lib/shortcodes.php:54
-msgid "Password (required)"
-msgstr "パスワードが必要"
-
-#: c:\temp\mystique\lib/shortcodes.php:55
-msgid "Verify password (required)"
-msgstr "FTP のパスワードは必須です"
-
-#: c:\temp\mystique\lib/shortcodes.php:56
-msgid "E-mail (required)"
-msgstr "パスワードが必要"
-
-#: c:\temp\mystique\lib/shortcodes.php:57
-msgid "First name"
-msgstr "名"
-
-#: c:\temp\mystique\lib/shortcodes.php:58
-msgid "Last name"
-msgstr "姓"
-
-#: c:\temp\mystique\lib/shortcodes.php:59
-msgid "Profile info"
-msgstr "情報"
-
-#: c:\temp\mystique\lib/shortcodes.php:80
-msgid "Please type a user name"
-msgstr "エラー: コメントを入力してください。"
-
-#: c:\temp\mystique\lib/shortcodes.php:81
-msgid "User name already exists"
-msgstr "フィルタ名はすでに存在しています"
-
-#: c:\temp\mystique\lib/shortcodes.php:82
-msgid "E-mail address is required."
-msgstr "有効なメールアドレスを入力してください"
-
-#: c:\temp\mystique\lib/shortcodes.php:83
-msgid "E-mail address already in use"
-msgstr "このスラッグ &#8220;%s&#8221; はすでに他のタグで使用されています"
-
-#: c:\temp\mystique\lib/shortcodes.php:84
-msgid "You must enter a password."
-msgstr "ユーザ名とパスワードを入力"
-
-#: c:\temp\mystique\lib/shortcodes.php:85
-msgid "Please verify the password"
-msgstr "このサーバのパスワードを入力してください:"
-
-#: c:\temp\mystique\lib/shortcodes.php:86
-msgid "Passwords do not match"
-msgstr "これを実行する権限はありません。"
-
-#: c:\temp\mystique\lib/shortcodes.php:87
-msgid "User registration failed.  Please try again."
-msgstr "LiveJournal からのコメント本文の取得に失敗しました。再度お試しください。"
-
-#
-#: c:\temp\mystique\lib/shortcodes.php:96
-msgid "You are logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>. You don't need another account :)"
-msgstr "<a href=\"%1$s\" title=\"%2$s\">%2$s</a> としてログイン中。新しいアカウントは不要です。"
-
-#: c:\temp\mystique\lib/shortcodes.php:101
-msgid "A user account for %1$s has been created."
-msgstr "以前開かれたファイルは変更されています."
-
-#: c:\temp\mystique\lib/shortcodes.php:102
-msgid "Thank you for registering, %1$s."
-msgstr "登録ありがとうございます。 %1$s."
-
-#: c:\temp\mystique\lib/shortcodes.php:154
-msgid "Add User"
-msgstr "ユーザーを追加"
-
-#: c:\temp\mystique\lib/shortcodes.php:154
-msgid "Register"
-msgstr "登録"
-
-#: c:\temp\mystique\lib/shortcodes.php:289
-msgid "Empty ad slot (#%s)!"
-msgstr "空のディレクトリ一覧取得"
-
-#: c:\temp\mystique\lib/shortcodes.php:294
-msgid "Top"
-msgstr "トップ"
-
-#: c:\temp\mystique\lib/shortcodes.php:302
-msgid "%1$s theme by %2$s | Powered by %3$s"
-msgstr "Powered by WordPress"
-
-#: c:\temp\mystique\lib/shortcodes.php:307
-msgid "Copyright &copy;"
-msgstr "Copyright &copy; "
-
-#: c:\temp\mystique\lib/shortcodes.php:320
-msgid "Site Admin"
-msgstr "サイト管理"
-
-#: c:\temp\mystique\lib/shortcodes.php:321
-msgid "Log in"
-msgstr "ログイン"
-
-#
-#: c:\temp\mystique\lib/widgets.php:61
+#: lib/widgets.php:55
+#, php-format
 msgid "%s followers"
 msgstr "%s followers"
 
-#: c:\temp\mystique\lib/widgets.php:85
+#: lib/widgets.php:79
 msgid "Error while retrieving tweets (Twitter down?)"
-msgstr "ファイルの場所を参照するため投稿メタデータにアクセス中、エラーが発生しました。"
+msgstr ""
+"ファイルの場所を参照するため投稿メタデータにアクセス中、エラーが発生しまし"
+"た。"
 
-#: c:\temp\mystique\lib/widgets.php:99
+#: lib/widgets.php:92
 msgid "Displays links to different sections grouped in tabs"
 msgstr "取り込むリンクのカテゴリーを選択してください。"
 
-#: c:\temp\mystique\lib/widgets.php:101
+#: lib/widgets.php:94
 msgid "Mystique | Sidebar tabs"
 msgstr "サイドバーをページに表示されない。"
 
-#: c:\temp\mystique\lib/widgets.php:125
-#: c:\temp\mystique\lib/widgets.php:321
+#: lib/widgets.php:119 lib/widgets.php:306
 msgid "Recent comments"
 msgstr "最近のコメント"
 
-#: c:\temp\mystique\lib/widgets.php:126
+#: lib/widgets.php:120
 msgid "Popular posts"
 msgstr "人気の記事"
 
-#: c:\temp\mystique\lib/widgets.php:127
-#: c:\temp\mystique\lib/widgets.php:313
+#: lib/widgets.php:121 lib/widgets.php:296
 msgid "Archives"
 msgstr "アーカイブ"
 
-#: c:\temp\mystique\lib/widgets.php:128
+#: lib/widgets.php:122 admin/theme-settings.php:568
+#: admin/theme-settings.php:598
 msgid "Tags"
 msgstr "タグ"
 
-#: c:\temp\mystique\lib/widgets.php:222
+#: lib/widgets.php:123 lib/widgets.php:288 admin/theme-settings.php:655
+msgid "Categories"
+msgstr "カテゴリ"
+
+#: lib/widgets.php:204
 msgid "Didn't find any posts popular enough :("
 msgstr "%s からの投稿はありません。"
 
-#: c:\temp\mystique\lib/widgets.php:265
+#: lib/widgets.php:231
+#, php-format
+msgid "Posted in: %s"
+msgstr "%s への投稿"
+
+#: lib/widgets.php:248
 msgid "Sidebar tabs"
 msgstr "すべてのタブ:"
 
-#: c:\temp\mystique\lib/widgets.php:266
-#: c:\temp\mystique\lib/widgets.php:409
-#: c:\temp\mystique\lib/widgets.php:508
+#: lib/widgets.php:249 lib/widgets.php:395 lib/widgets.php:494
 msgid "jQuery is disabled and this widget needs it"
-msgstr "このウィジェットを使用するサイドバーと、そのサイドバー内でのウィジェットの位置を選択してください。"
+msgstr ""
+"このウィジェットを使用するサイドバーと、そのサイドバー内でのウィジェットの位"
+"置を選択してください。"
 
-#: c:\temp\mystique\lib/widgets.php:301
+#: lib/widgets.php:284
 msgid "Tabs to show"
 msgstr "プラグインはありません"
 
-#: c:\temp\mystique\lib/widgets.php:309
+#: lib/widgets.php:292
 msgid "Tags "
 msgstr "タグ"
 
-#: c:\temp\mystique\lib/widgets.php:317
+#: lib/widgets.php:300
 msgid "Popular posts (most commented)"
 msgstr "人気の記事（コメントが多い）"
 
-#: c:\temp\mystique\lib/widgets.php:327
+#: lib/widgets.php:313
 msgid "Sort categories"
 msgstr "カテゴリーを検索"
 
-#: c:\temp\mystique\lib/widgets.php:329
+#: lib/widgets.php:315
 msgid "by name (alphabetically)"
 msgstr "名前順で並べる"
 
-#: c:\temp\mystique\lib/widgets.php:330
+#: lib/widgets.php:316
 msgid "by category ID"
-msgstr "リンク ID 順で並べる"
+msgstr "カテゴリID順"
 
-#: c:\temp\mystique\lib/widgets.php:331
+#: lib/widgets.php:317
 msgid "by category slug"
-msgstr "リンクカテゴリーのスラッグ"
+msgstr "カテゴリスラッグ順"
 
-#: c:\temp\mystique\lib/widgets.php:332
+#: lib/widgets.php:318
 msgid "by post count"
 msgstr "%1$s <span class=\"count\">(%2$s 名)</span>"
 
-#: c:\temp\mystique\lib/widgets.php:337
+#: lib/widgets.php:323
 msgid "Show post count (categories and archives)"
-msgstr "DotClear ブログからカテゴリー、ユーザー、投稿、コメント、リンクをインポートします。"
+msgstr ""
+"DotClear ブログからカテゴリー、ユーザー、投稿、コメント、リンクをインポートし"
+"ます。"
 
-#: c:\temp\mystique\lib/widgets.php:343
+#: lib/widgets.php:329
 msgid "How many popular posts to show?"
 msgstr "フィード内の項目をいくつ表示しますか ?"
 
-#: c:\temp\mystique\lib/widgets.php:350
+#: lib/widgets.php:336
 msgid "How many recent comments to show?"
 msgstr "フィード内の項目をいくつ表示しますか ?"
 
-#: c:\temp\mystique\lib/widgets.php:366
+#: lib/widgets.php:352
 msgid "Shows your latest Twitter updates"
 msgstr "プラグインは最新のバージョンです。"
 
-#: c:\temp\mystique\lib/widgets.php:367
+#: lib/widgets.php:353
 msgid "Mystique | Twitter"
-msgstr "Twitter 名前："
+msgstr "Mystique | Twitter"
 
-#: c:\temp\mystique\lib/widgets.php:406
+#: lib/widgets.php:392
 msgid "Loading tweets..."
 msgstr "読み込み中&#8230;"
 
-#: c:\temp\mystique\lib/widgets.php:436
-#: c:\temp\mystique\lib/widgets.php:542
+#: lib/widgets.php:399
+msgid "Follow me on Twitter!"
+msgstr "Twitterでフォローする"
+
+#: lib/widgets.php:422 lib/widgets.php:528
 msgid "Title:"
 msgstr "タイトル:"
 
-#: c:\temp\mystique\lib/widgets.php:441
+#: lib/widgets.php:427
 msgid "Twitter user name:"
 msgstr "ユーザ名を明確にしなければいけません."
 
-#: c:\temp\mystique\lib/widgets.php:446
+#: lib/widgets.php:432
 msgid "Number of tweets to show:"
 msgstr "表示する投稿数:"
 
-#: c:\temp\mystique\lib/widgets.php:460
+#: lib/widgets.php:446
 msgid "Displays Flickr galleries (needs API key)"
-msgstr "API キーを入力してださい。 (<a href=\"%s\" style=\"color:#fff\">キーを取得する</a>) "
+msgstr ""
+"API キーを入力してださい。 (<a href=\"%s\" style=\"color:#fff\">キーを取得す"
+"る</a>) "
 
-#: c:\temp\mystique\lib/widgets.php:462
+#: lib/widgets.php:448
 msgid "Mystique | Flickr Gallery"
 msgstr "ギャラリー設定を更新"
 
-#: c:\temp\mystique\lib/widgets.php:533
+#: lib/widgets.php:519
 msgid "Flickr Gallery"
 msgstr "ギャラリー設定"
 
-#: c:\temp\mystique\lib/widgets.php:547
+#: lib/widgets.php:533
 msgid "API key:"
 msgstr "WordPress.com API キー"
 
-#: c:\temp\mystique\lib/widgets.php:552
+#: lib/widgets.php:538
 msgid "Number of photos to show:"
 msgstr "表示する投稿数:"
 
-#: c:\temp\mystique\lib/widgets.php:557
+#: lib/widgets.php:543
 msgid "Gallery source:"
 msgstr "ソースファイル"
 
-#: c:\temp\mystique\lib/widgets.php:559
+#: lib/widgets.php:545
 msgid "Photoset"
 msgstr "a"
 
-#: c:\temp\mystique\lib/widgets.php:560
+#: lib/widgets.php:546
 msgid "User photostream"
 msgstr "%s - プロキシ ユーザ名"
 
-#: c:\temp\mystique\lib/widgets.php:565
+#: lib/widgets.php:551
 msgid "Photoset ID:"
 msgstr "ページ ID"
 
-#: c:\temp\mystique\lib/widgets.php:570
+#: lib/widgets.php:556
+#, php-format
 msgid "User ID (use %s to find it):"
 msgstr "有効化するには下のボタンをクリックしてください。"
 
-#: c:\temp\mystique\lib/widgets.php:585
+#: lib/widgets.php:571
 msgid "Login form"
 msgstr "ログインフォーム"
 
-#: c:\temp\mystique\lib/widgets.php:586
+#: lib/widgets.php:572
 msgid "Mystique | Login"
 msgstr "Mystique | ログイン "
 
-#: c:\temp\mystique\lib/widgets.php:596
+#: lib/widgets.php:582
+#, php-format
 msgid "Logged in: %s"
 msgstr "%s としてログイン中。"
 
-#: c:\temp\mystique\lib/widgets.php:601
+#: lib/widgets.php:587
 msgid "Dashboard"
 msgstr "ダッシュボード"
 
-#: c:\temp\mystique\lib/widgets.php:603
+#: lib/widgets.php:589
 msgid "Write"
 msgstr "書く"
 
-#: c:\temp\mystique\lib/widgets.php:604
+#: lib/widgets.php:590
 msgid "Comments"
 msgstr "コメント"
 
-#: c:\temp\mystique\lib/widgets.php:606
+#: lib/widgets.php:592
 msgid "Log out"
 msgstr "ログアウト"
 
-#: c:\temp\mystique\lib/widgets.php:610
+#: lib/widgets.php:596
 msgid "User Login"
 msgstr "WordPress のユーザー名 "
 
-#: c:\temp\mystique\lib/widgets.php:614
+#: lib/widgets.php:600
 msgid "User"
 msgstr "ユーザ(&U):"
 
-#: c:\temp\mystique\lib/widgets.php:615
+#: lib/widgets.php:601
 msgid "Password"
 msgstr "パスワード"
 
-#: c:\temp\mystique\lib/widgets.php:616
+#: lib/widgets.php:602
 msgid "Login"
 msgstr "WordPress のユーザー名 "
 
-#: c:\temp\mystique\lib/widgets.php:617
+#: lib/widgets.php:603
 msgid "Remember me"
 msgstr "ログイン情報を記憶"
 
-#: c:\temp\mystique\lib/widgets.php:623
+#: lib/widgets.php:608 lib/shortcodes.php:154
+msgid "Register"
+msgstr "登録"
+
+#: lib/widgets.php:609
 msgid "Lost your password?"
 msgstr "パスワードをお忘れですか ?"
 
+#: lib/core.php:118
+msgid "View page"
+msgstr "ページを表示"
+
+#: lib/core.php:203
+#, php-format
+msgid "Empty menu (%s)"
+msgstr "コメント"
+
+#: lib/core.php:236
+msgid "You are Home"
+msgstr "ホーム"
+
+#: lib/core.php:236 lib/core.php:238 admin/theme-settings.php:696
+msgid "Home"
+msgstr "ホーム"
+
+#: lib/core.php:238
+msgid "Click for Home"
+msgstr "クリックしてホーム"
+
+#: lib/core.php:298
+msgid "F jS, Y"
+msgstr "Y年n月j日"
+
+#: lib/core.php:300
+#, php-format
+msgid "Archive for week %1$s of %2$s"
+msgstr "週ごとのアーカイブ（%1$s / %2$s）"
+
+#: lib/core.php:300
+msgid "W"
+msgstr "W"
+
+#: lib/core.php:311
+msgid "404 Not Found"
+msgstr "404 ページが見つかりませんでした。"
+
+#: lib/core.php:317
+#, php-format
+msgid "Page %s"
+msgstr "%s のページ"
+
+#: lib/core.php:321
+#, php-format
+msgid "Comment Page %s"
+msgstr "%s のコメントページ"
+
+#: lib/core.php:343
+#, php-format
+msgid "View all posts in %s"
+msgstr "%s の記事をすべて表示"
+
+#: lib/core.php:403
+msgid "Share this post!"
+msgstr "この投稿を共有"
+
+#: lib/core.php:598
+msgid "Permanent Link:"
+msgstr "パーマリンク"
+
+#: lib/core.php:603
+msgid "M jS"
+msgstr "Y年n月j日"
+
+#: lib/core.php:607
+#, php-format
+msgid "Posted by %1$s in %2$s"
+msgstr "投稿者: %1$s (%2$s)"
+
+#: lib/core.php:607 single.php:95 author.php:38
+#, php-format
+msgid "Posts by %s"
+msgstr "%s による投稿"
+
+#: lib/core.php:610
+msgid "Edit"
+msgstr "編集"
+
+#: lib/core.php:614 comments.php:206
+msgid "No comments"
+msgstr "コメント無し"
+
+#: lib/core.php:614 comments.php:206
+msgid "1 comment"
+msgstr "コメント 1 件"
+
+#: lib/core.php:614 comments.php:206
+#, php-format
+msgid "% comments"
+msgstr "コメント % 件"
+
+#: lib/core.php:623 lib/core.php:636 lib/core.php:699 single.php:45
+msgid "More &gt;"
+msgstr "続きを読む &gt;"
+
+#: lib/core.php:648 single.php:66
+#, php-format
+msgid "%1$s (%2$s topics)"
+msgstr "%1 (%2 記事)"
+
+#: lib/core.php:686
+msgid "Pages: "
+msgstr "ページ:"
+
+#: lib/core.php:688
+msgid "Edit this page"
+msgstr "このページを編集"
+
+#: lib/core.php:755
+msgid "Go to the first page"
+msgstr "最初のページへ"
+
+#: lib/core.php:755
+msgid "&laquo; First"
+msgstr "&laquo; 最初"
+
+#: lib/core.php:761 lib/core.php:767 lib/core.php:773
+#, php-format
+msgid "Go to page %s"
+msgstr "%s ページへ"
+
+#: lib/core.php:777
+msgid "Go to the last page"
+msgstr "最後のページへ"
+
+#: lib/core.php:777
+msgid "Last &raquo;"
+msgstr "最後 &raquo;"
+
+#: lib/core.php:1176
+#, php-format
+msgid "%1$s written by %2$s"
+msgstr "%1$s 投稿者：%2$s"
+
+#: lib/core.php:1184
+msgid "Reply"
+msgstr "返信"
+
+#: lib/core.php:1186
+msgid "Quote"
+msgstr "引用"
+
+#: lib/core.php:1192
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは管理者の承認待ちです。"
+
+#: lib/editor.php:22
+msgid "Divider"
+msgstr "水平線"
+
+#: lib/editor.php:23
+msgid "Error text color"
+msgstr "文字色を選択"
+
+#: lib/editor.php:24
+msgid "Error box"
+msgstr "データベースエラー: %s"
+
+#: lib/shortcodes.php:17
+#, php-format
+msgid ""
+"%s: Widget class not found. Make sure this widget exists and the class name "
+"is correct"
+msgstr ""
+"%s: ウィジェットclassが見つかりませんでした。 ウィジェットが存在し、class指定"
+"が正しいことを確認してください。"
+
+#: lib/shortcodes.php:52
+msgid "User name (required)"
+msgstr "ユーザ名を明確にしなければいけません."
+
+#: lib/shortcodes.php:53 comments.php:104 comments.php:136 comments.php:137
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: lib/shortcodes.php:54
+msgid "Password (required)"
+msgstr "パスワードが必要"
+
+#: lib/shortcodes.php:55
+msgid "Verify password (required)"
+msgstr "FTP のパスワードは必須です"
+
+#: lib/shortcodes.php:56
+msgid "E-mail (required)"
+msgstr "パスワードが必要"
+
+#: lib/shortcodes.php:57
+msgid "First name"
+msgstr "名"
+
+#: lib/shortcodes.php:58
+msgid "Last name"
+msgstr "姓"
+
+#: lib/shortcodes.php:59
+msgid "Profile info"
+msgstr "情報"
+
+#: lib/shortcodes.php:80
+msgid "Please type a user name"
+msgstr "エラー: コメントを入力してください。"
+
+#: lib/shortcodes.php:81
+msgid "User name already exists"
+msgstr "フィルタ名はすでに存在しています"
+
+#: lib/shortcodes.php:82
+msgid "E-mail address is required."
+msgstr "有効なメールアドレスを入力してください"
+
+#: lib/shortcodes.php:83
+msgid "E-mail address already in use"
+msgstr "このスラッグ &#8220;%s&#8221; はすでに他のタグで使用されています"
+
+#: lib/shortcodes.php:84
+msgid "You must enter a password."
+msgstr "ユーザ名とパスワードを入力"
+
+#: lib/shortcodes.php:85
+msgid "Please verify the password"
+msgstr "このサーバのパスワードを入力してください:"
+
+#: lib/shortcodes.php:86
+msgid "Passwords do not match"
+msgstr "これを実行する権限はありません。"
+
+#: lib/shortcodes.php:87
+msgid "User registration failed.  Please try again."
+msgstr ""
+"LiveJournal からのコメント本文の取得に失敗しました。再度お試しください。"
+
+#: lib/shortcodes.php:96
+#, php-format
+msgid ""
+"You are logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>. You don't "
+"need another account :)"
+msgstr ""
+"<a href=\"%1$s\" title=\"%2$s\">%2$s</a> としてログイン中。新しいアカウントは"
+"不要です。"
+
+#: lib/shortcodes.php:96 comments.php:117
+msgid "Log out of this account"
+msgstr "このアカウントからログアウト"
+
+#: lib/shortcodes.php:96 comments.php:117
+msgid "Logout &raquo;"
+msgstr "ログアウト &raquo;"
+
+#: lib/shortcodes.php:101
+#, php-format
+msgid "A user account for %1$s has been created."
+msgstr "以前開かれたファイルは変更されています."
+
+#: lib/shortcodes.php:102
+#, php-format
+msgid "Thank you for registering, %1$s."
+msgstr "登録ありがとうございます。 %1$s."
+
+#: lib/shortcodes.php:154
+msgid "Add User"
+msgstr "ユーザーを追加"
+
+#: lib/shortcodes.php:242
+msgid "No posts found matching the arguments"
+msgstr "見つかりませんでした"
+
+#: lib/shortcodes.php:292
+#, php-format
+msgid "Empty ad slot (#%s)!"
+msgstr "空の広告枠 (#%s)!"
+
+#: lib/shortcodes.php:297
+msgid "Top"
+msgstr "トップ"
+
+#: lib/shortcodes.php:305
+#, php-format
+msgid "%1$s theme by %2$s | Powered by %3$s"
+msgstr "Powered by WordPress"
+
+#: lib/shortcodes.php:310
+msgid "Copyright &copy;"
+msgstr "Copyright &copy; "
+
+#: lib/shortcodes.php:323
+msgid "Site Admin"
+msgstr "サイト管理"
+
+#: lib/shortcodes.php:324
+msgid "Log in"
+msgstr "ログイン"
+
+#: lib/shortcodes.php:427
+#, php-format
+msgid "PR %s"
+msgstr "%s のページ"
+
+#: lib/settings.php:73
+#, php-format
+msgid "You can configure Mystique from the <a%s>theme settings</a> page."
+msgstr "FileZilla自身の設定ディレクトリから設定を取り込むことができません."
+
+#: lib/settings.php:225
+msgid "Posting. Please wait..."
+msgstr "投稿中です。しばらくお待ちください。"
+
+#: lib/settings.php:226
+msgid "Your comment was added."
+msgstr "コメント無し"
+
+#: lib/settings.php:227
+msgid "Post another comment"
+msgstr "フッター"
+
+#: lib/settings.php:232
+msgid ""
+"You're using a old and buggy browser. Switch to a <a href='http://www."
+"mozilla.com/firefox/'>normal browser</a> or consider <a href='http://www."
+"microsoft.com/windows/internet-explorer'>upgrading your Internet Explorer</"
+"a> to the latest version"
+msgstr "あなたは古いバージョンのブラウザを使用しています。<a href='http://www.microsoft.com/windows/internet-explorer'>インターネットエクスプローラの最新版にアップグレード</a>するか、<a href='http://www.mozilla.com/firefox/'>Firefox</a>に変えましょう。"
+
+#: lib/settings.php:356
+msgid "There are one or more PHP parse errors in your custom functions."
+msgstr "PHPのパーサエラーが1つ以上あります。"
+
+#: comments.php:3
+msgid "Enter your password to view comments"
+msgstr "コメントを読むにはパスワードを入力してください"
+
+#: comments.php:42
+msgid "Related Posts"
+msgstr "関連記事"
+
+#: comments.php:43
+#, php-format
+msgid "Trackbacks (%s)"
+msgstr "トラックバック"
+
+#: comments.php:44 comments.php:50
+#, php-format
+msgid "Comments (%s)"
+msgstr "コメント"
+
+#: comments.php:82
+msgid "No comments yet."
+msgstr "コメント無し"
+
+#: comments.php:91
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "コメントを投稿するには<a href=\"%s\">ログイン</a>してください。"
+
+#: comments.php:102 comments.php:128 comments.php:129
+msgid "Name (required)"
+msgstr "名前 (必須)"
+
+#: comments.php:103 comments.php:132 comments.php:133
+msgid "E-mail (required, will not be published)"
+msgstr "メール (必須)"
+
+#: comments.php:115
+#, php-format
+msgid "Logged in as %s."
+msgstr "%s としてログイン中。"
+
+#: comments.php:122
+#, php-format
+msgid "Welcome back <strong>%s</strong>."
+msgstr "お帰りなさい <strong>%s</strong>."
+
+#: comments.php:123
+msgid "Change &raquo;"
+msgstr "変更する &raquo;"
+
+#: comments.php:144
+msgid "Type your comment"
+msgstr "コメントを入力してください。"
+
+#: comments.php:153
+#, php-format
+msgid "Spam protection: Sum of %1$s + %2$s = ?"
+msgstr "スパム防止のための質問: %1$s + %2$s = ?"
+
+#: comments.php:162
+msgid "Submit Comment"
+msgstr "コメント送信"
+
+#: comments.php:164
+msgid "Cancel Reply"
+msgstr "返信をキャンセル"
+
+#: comments.php:188
+msgid "No trackbacks yet."
+msgstr "トラックバックはありません。"
+
+#: comments.php:224
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#: single.php:55
+msgid "Pages:"
+msgstr "ページ:"
+
+#: single.php:79 admin/theme-settings.php:577
+msgid "About the author"
+msgstr "投稿者について"
+
+#: single.php:91
+msgid "Print article"
+msgstr "印刷"
+
+#: single.php:95
+#, php-format
+msgid ""
+"This entry was posted by %1$s on %2$s at %3$s, and is filed under %4$s. "
+"Follow any responses to this post through %5$s."
+msgstr ""
+"この記事は %1$s によって %2$s %3$s に投稿されました, %4$s 以下に保存されてい"
+"ます。 %5$s を通してコメントをフォローする。"
+
+#: single.php:98
+#, php-format
+msgid ""
+"You can <a%1$s>leave a response</a> or <a%2$s>trackback</a> from your own "
+"site."
+msgstr ""
+"<a%1$s>コメントを残すか</a>、ご自分のサイトから<a%2$s>トラックバック</a>でき"
+"ます。"
+
+#: single.php:100
+#, php-format
+msgid ""
+"Responses are currently closed, but you can <a%1$s>trackback</a> from your "
+"own site."
+msgstr ""
+"現在コメントは受け付けておりませんが、ご自分のサイトから<a href=\"%s\" rel="
+"\"trackback\">トラックバック</a>を送ることはできます。"
+
+#: single.php:102
+msgid ""
+"You can skip to the end and leave a response. Pinging is currently not "
+"allowed."
+msgstr ""
+"このページの一番下でコメントを残すことができます。トラックバック / ピンバック"
+"は現在受け付けていません。"
+
+#: single.php:104
+msgid "Both comments and pings are currently closed."
+msgstr "現在コメント、トラックバックともに受け付けておりません。"
+
+#: single.php:107
+msgid "Edit this entry"
+msgstr "この投稿を編集 "
+
+#: 404.php:13
+msgid "The requested page was not found"
+msgstr "ページが見つかりませんでした"
+
+#: sidebar2.php:7
+msgid ""
+"You activated the 2nd sidebar. Add widgets here from the Dashboard to remove "
+"this message"
+msgstr ""
+"2つめのサイドバーを有効化しました。このメッセージを消すためにウィジェットを"
+"ダッシュボードから追加してください。"
+
+#: author.php:23
+msgid "This user hasn't shared any biographical information"
+msgstr "このユーザーではテンプレートの編集はできません。"
+
+#: author.php:28
+msgid "Homepage:"
+msgstr "ホームページ:"
+
+#: author.php:29
+msgid "Yahoo Messenger:"
+msgstr "Yahoo IM"
+
+#: author.php:30
+msgid "Jabber/GTalk:"
+msgstr "Jabber / Google Talk"
+
+#: author.php:31
+msgid "AIM:"
+msgstr "AIM"
+
+#: author.php:48
+msgid "No posts found by this author."
+msgstr "この文字列への参照は見つかりませんでした。"
+
+#: searchform.php:11
+#, php-format
+msgid "You have searched the archives for %s"
+msgstr "%s の検索結果を表示しています。"
+
+#: searchform.php:13
+msgid "Type a valid search term..."
+msgstr "検索..."
+
+#: admin/theme-settings.php:286 admin/theme-settings.php:350
+msgid "You are not authorised to perform this operation."
+msgstr "このページを編集する権限がありません。"
+
+#: admin/theme-settings.php:337
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox"
+"\" title=\"%1$s\">View version %3$s Details</a>."
+msgstr ""
+"%1$s の新しいバージョンが利用可能です。 <a href=\"%2$s\" class=\"thickbox\" "
+"title=\"%1$s\">%3$s の詳細を見る</a>。"
+
+#: admin/theme-settings.php:338
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox"
+"\" title=\"%1$s\">View version %3$s Details</a> or <a href=\"%4$s\" >upgrade "
+"automatically</a>."
+msgstr ""
+"%1$s の新しいバージョンが利用可能です3002 <a href=\"%2$s\" class=\"thickbox"
+"\" title=\"%1$s\">%3$sの詳細を見る</a> または <a href=\"%4$s\" >自動更新</a>."
+
+#: admin/theme-settings.php:356 admin/theme-settings.php:874
+#: admin/theme-settings.php:875
+msgid "Mystique settings"
+msgstr "Mystiqueの設定"
+
+#: admin/theme-settings.php:357
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: admin/theme-settings.php:357
+msgid "Reset to Defaults"
+msgstr "初期値に戻す"
+
+#: admin/theme-settings.php:357
+msgid "Reset all theme settings to the default values? Are you sure?"
+msgstr "テーマの設定をすべてデフォルトに戻しますか？"
+
+#: admin/theme-settings.php:366
+#, php-format
+msgid "Settings saved. %s"
+msgstr "設定を保存しました。"
+
+#: admin/theme-settings.php:366
+msgid "View site"
+msgstr "サイトを見る"
+
+#: admin/theme-settings.php:370
+msgid "Please upload a valid image file!"
+msgstr "画像ファイルをアップロードしてください。"
+
+#: admin/theme-settings.php:371
+msgid "The file you uploaded doesn't seem to be a valid JPEG, PNG or GIF image"
+msgstr "JPEG、PNG、GIFファイルをアップロードしてください。"
+
+#: admin/theme-settings.php:372
+msgid "The image could not be saved on your server"
+msgstr ""
+"この作業はあなたのデータベースの大きさによっては数分かかることがありますの"
+"で、あせらずお待ちください。"
+
+#: admin/theme-settings.php:377
+#, php-format
+msgid "Error: %s"
+msgstr "エラー:"
+
+#: admin/theme-settings.php:386
+msgid "Design"
+msgstr "デザイン"
+
+#: admin/theme-settings.php:387 admin/theme-settings.php:601
+msgid "Content"
+msgstr "コンテンツ"
+
+#: admin/theme-settings.php:388
+msgid "Navigation"
+msgstr "ナビゲーション"
+
+#: admin/theme-settings.php:389
+msgid "SEO"
+msgstr "SEO"
+
+#: admin/theme-settings.php:390
+msgid "Ads"
+msgstr "広告"
+
+#: admin/theme-settings.php:391
+msgid "Advanced"
+msgstr "詳細"
+
+#: admin/theme-settings.php:392
+msgid "User CSS"
+msgstr "オリジナルCSS"
+
+#: admin/theme-settings.php:393
+msgid "More themes by digitalnature"
+msgstr "digitalnatureのテーマ"
+
+#: admin/theme-settings.php:403
+msgid ""
+"The design settings panel is not yet supported by Internet Explorer. Sorry :("
+msgstr ""
+"Internet Explorerではデザインの設定変更パネルはサポートされていません。"
+
+#: admin/theme-settings.php:406
+msgid "Loading site preview..."
+msgstr "プレビューを読み込み中"
+
+#: admin/theme-settings.php:411
+msgid "Layout style"
+msgstr "レイアウト"
+
+#: admin/theme-settings.php:411
+msgid "Use page templates if you want to apply these only to specific pages"
+msgstr "ページごとにテンプレートを変更する"
+
+#: admin/theme-settings.php:447
+msgid "Color scheme"
+msgstr "配色"
+
+#: admin/theme-settings.php:474
+msgid "Page (content) width"
+msgstr "ページ（コンテンツ）の横幅"
+
+#: admin/theme-settings.php:474
+msgid "Note that fluid pages can be hard to read on large resolutions."
+msgstr "動的なページは解像度の高い環境では読みづらい場合があります。"
+
+#: admin/theme-settings.php:477
+#, php-format
+msgid "Fixed (%s)"
+msgstr "固定 (%s)"
+
+#: admin/theme-settings.php:478
+msgid "Fluid (100%)/Custom"
+msgstr "ダイナミック (100%)"
+
+#: admin/theme-settings.php:484
+msgid "Column sizes"
+msgstr "カラムサイズ"
+
+#: admin/theme-settings.php:484
+msgid "(With 10 pixel padding between them)"
+msgstr "(10pxの間隔)"
+
+#: admin/theme-settings.php:497
+msgid "Font style"
+msgstr "フォンt"
+
+#: admin/theme-settings.php:510
+msgid "Background color"
+msgstr "背景色"
+
+#: admin/theme-settings.php:510
+msgid "Leave Black (#000000) to keep the default background"
+msgstr "デフォルトは黒(#000000)です。"
+
+#: admin/theme-settings.php:523
+msgid "Custom logo image"
+msgstr "ヘッダー画像"
+
+#: admin/theme-settings.php:523
+msgid ""
+"Show a logo image instead of text; Upload the graphic file from your computer"
+msgstr "文字の替わりに画像を表示するためには画像をアップロードしてください"
+
+#: admin/theme-settings.php:528 admin/theme-settings.php:546
+msgid "Remove current image"
+msgstr "ヘッダー画像"
+
+#: admin/theme-settings.php:534 admin/theme-settings.php:552
+#, php-format
+msgid "Directory %s doesn't have write permissions - can't upload!"
+msgstr "このファイルをサーバへ戻すためにアップロードしますか?"
+
+#: admin/theme-settings.php:534 admin/theme-settings.php:552
+msgid ""
+"Check your upload path in Settings/Misc or CHMOD this directory to 755/777."
+"<br />Contact your host if you don't know how"
+msgstr ""
+"その他の設定→アップロードするファイル保存場所、パーミッションをチェックしてく"
+"ださい。<br />やり方がわからない場合は管理者にお問い合わせください"
+
+#: admin/theme-settings.php:541
+msgid "Custom background image"
+msgstr "ヘッダー画像"
+
+#: admin/theme-settings.php:541
+msgid "Upload a new background/header image to replace the default one"
+msgstr ""
+"ヘッダーの背景画像をアップロードしてください。アップロードするとデフォルトの"
+"文言を上書きします。"
+
+#: admin/theme-settings.php:565
+msgid "Posts (single)"
+msgstr "投稿 (single)"
+
+#: admin/theme-settings.php:565
+msgid "How much information do you want to show on the single post page?"
+msgstr "どのくらい投稿ページに情報を表示しますか？"
+
+#: admin/theme-settings.php:571
+msgid "Meta"
+msgstr "メタ"
+
+#: admin/theme-settings.php:574
+msgid "Share"
+msgstr "共有"
+
+#: admin/theme-settings.php:580
+msgid "Print link"
+msgstr "印刷リンク"
+
+#: admin/theme-settings.php:583
+msgid "Related posts"
+msgstr "関連記事"
+
+#: admin/theme-settings.php:589
+msgid "Post previews"
+msgstr "記事の表示方法"
+
+#: admin/theme-settings.php:589
+msgid ""
+"How much info do you want to show on blog/category/archive/search pages?"
+msgstr "blog/category/archive/searchページに表示する情報"
+
+#: admin/theme-settings.php:592
+msgid "Title"
+msgstr "タイトル:"
+
+#: admin/theme-settings.php:595
+msgid "Info bar"
+msgstr "インフォバー"
+
+#: admin/theme-settings.php:604
+msgid "max. 50 words, filtered"
+msgstr "最大50単語"
+
+#: admin/theme-settings.php:605
+msgid "max. 100 words, filtered"
+msgstr "最大100単語"
+
+#: admin/theme-settings.php:606
+msgid "max. 200 words, filtered"
+msgstr "最大200単語"
+
+#: admin/theme-settings.php:607
+msgid "full"
+msgstr "全て"
+
+#: admin/theme-settings.php:608
+msgid "full, filtered"
+msgstr "全単語"
+
+#: admin/theme-settings.php:609
+msgid "excerpt"
+msgstr "詳細"
+
+#: admin/theme-settings.php:615
+msgid "Auto generate thumbnails"
+msgstr "サムネイル自動生成"
+
+#: admin/theme-settings.php:615
+msgid "Get the 1st image attached to a post, if no thumbnail is set manually"
+msgstr ""
+"サムネイルが設定されていなかったら1つめの画像からサムネイルを生成する。"
+
+#: admin/theme-settings.php:620
+msgid "Post thumbnail size"
+msgstr "記事のサムネイル画像サイズ"
+
+#: admin/theme-settings.php:620
+#, php-format
+msgid ""
+"Note that this only works for images you upload from now on, older images "
+"will be browser-resized. You should use the %s plugin to create missing "
+"image sizes"
+msgstr ""
+"今からアップロードされた画像のみに適応されます。不足画像を生成するためには%s"
+"プラグインを利用してください"
+
+#: admin/theme-settings.php:624
+msgid "Very small: 48 x 48"
+msgstr "とても小さい 48 x 48"
+
+#: admin/theme-settings.php:625
+msgid "Small: 64 x 64"
+msgstr "小: 64 x 64"
+
+#: admin/theme-settings.php:626
+msgid "Medium: 80 x 80"
+msgstr "中: 80 x 80"
+
+#: admin/theme-settings.php:627
+msgid "Larger: 100 x 100"
+msgstr "大: 100 x 100"
+
+#: admin/theme-settings.php:628
+#, php-format
+msgid "WP's Media setting: %s"
+msgstr "ワードプレスのメディア設定"
+
+#: admin/theme-settings.php:636
+msgid "Footer content"
+msgstr "フッター"
+
+#: admin/theme-settings.php:636
+msgid "You can post HTML code"
+msgstr "HTMLを追加できます"
+
+#: admin/theme-settings.php:636 admin/theme-settings.php:757
+msgid "Only some HTML tags and attributes are allowed"
+msgstr "いくつかのHTMLタグと属性が許可されています"
+
+#: admin/theme-settings.php:640
+#, php-format
+msgid "Use the following short codes for convenient adjustments: <br />%s"
+msgstr "以下のコードを使ってください：<br />%s"
+
+#: admin/theme-settings.php:650
+msgid "Top navigation shows"
+msgstr "上部にナビゲーションを表示する"
+
+#: admin/theme-settings.php:653
+msgid "Nothing (disabled)"
+msgstr "1つもない（無効）"
+
+#: admin/theme-settings.php:654
+msgid "Pages"
+msgstr "ページ"
+
+#: admin/theme-settings.php:656
+msgid "Links"
+msgstr "リンク"
+
+#: admin/theme-settings.php:660
+msgid "Menu:"
+msgstr "メニュー："
+
+#: admin/theme-settings.php:670
+msgid "from category"
+msgstr "親カテゴリー"
+
+#: admin/theme-settings.php:675
+#, php-format
+msgid "%s links"
+msgstr "リンク"
+
+#: admin/theme-settings.php:682
+msgid "No links found"
+msgstr "リンクは見つかりませんでした。"
+
+#: admin/theme-settings.php:691
+msgid "Exclude from navigation"
+msgstr "ナビゲーションから除外"
+
+#: admin/theme-settings.php:691
+msgid "Check the items you wish to hide from the main menu"
+msgstr "メインメニューから除外するページにチェックしてください"
+
+#: admin/theme-settings.php:731
+msgid "Additional site optimization for search engines"
+msgstr "SEO最適化"
+
+#: admin/theme-settings.php:731
+msgid "Uncheck if you are using a SEO plugin!"
+msgstr "SEO関連のプラグインを使っている場合はチェックしないでください。"
+
+#: admin/theme-settings.php:738
+msgid "What does this do?"
+msgstr "チェックした場合:"
+
+#: admin/theme-settings.php:740
+msgid ""
+"enables canonical URLs for comments (duplicate content fix, only needed on "
+"wp < 2.9)"
+msgstr ""
+"コメントページにcanonical URLを有効にする（重複コンテンツ問題を回避するため。"
+"Wordpress 2.9未満）"
+
+#: admin/theme-settings.php:741
+msgid ""
+"generates unique titles for posts with multiple comment pages (prevents "
+"duplicate titles)"
+msgstr ""
+"複数ページにわたるコメントがある場合、記事毎に一意のタイトルを生成する。（重"
+"複タイトルを防ぐため）"
+
+#: admin/theme-settings.php:742
+#, php-format
+msgid ""
+"generates a unique meta description tag for each page (no meta keywords; "
+"why? -<a %s>useless</a>)"
+msgstr "各ページにユニークなmeta descriptionを生成する（%s）"
+
+#: admin/theme-settings.php:757
+msgid "Advertisment blocks"
+msgstr "広告ブロック"
+
+#: admin/theme-settings.php:757
+#, php-format
+msgid ""
+"Use the %s short code to insert these ads into posts, text widgets or footer"
+msgstr ""
+"記事、テキストまたはフッターへ広告コードを挿入する場合は %s を使ってくださ"
+"い。"
+
+#: admin/theme-settings.php:758
+msgid "Example:"
+msgstr "例:"
+
+#: admin/theme-settings.php:764
+#, php-format
+msgid "Ad code #%s:"
+msgstr "広告コード #%s"
+
+#: admin/theme-settings.php:780
+msgid "Use jQuery"
+msgstr "jQueryを利用する"
+
+#: admin/theme-settings.php:780
+msgid "For testing purposes only. Only uncheck if you know what you're doing!"
+msgstr "テスト段階。利用には注意してください。"
+
+#: admin/theme-settings.php:785
+msgid "Enable AJAX for comments"
+msgstr "ページャをAJAXで行う"
+
+#: admin/theme-settings.php:785
+msgid ""
+"Navigate trough comment pages and post comments without refreshing (faster "
+"load, but may be incompatible with some plugins)"
+msgstr ""
+"コメントページをリロードなしに表示 （便利ですが、動作しないプラグインが発生す"
+"るかもしれません）"
+
+#: admin/theme-settings.php:790
+msgid "Enable theme built-in lightbox on all image links"
+msgstr "テーマに組み込まれているlightboxを使う"
+
+#: admin/theme-settings.php:790
+msgid "Uncheck if you prefer a lightbox plugin"
+msgstr "lightboxプラグインを利用したい場合はチェックを外してください"
+
+#: admin/theme-settings.php:795
+msgid "Remove Mystique settings from the database after theme switch"
+msgstr "テーマを変更したらテーマに関する設定を全て削除する"
+
+#: admin/theme-settings.php:795
+msgid "Only check if you're planning to remove and change the theme"
+msgstr "テーマを削除しようとしている場合チェックする"
+
+#: admin/theme-settings.php:810
+msgid "User functions"
+msgstr "ユーザ定義関数"
+
+#: admin/theme-settings.php:810
+msgid ""
+"PHP code to add to the theme functions. Useful if you have plugins that "
+"require you to change the theme's functions.php file"
+msgstr "テーマにPHPコードを追加する。"
+
+#: admin/theme-settings.php:825
+msgid "CSS to add, or modify theme styles"
+msgstr "テーマのスタイルを変更するCSS"
+
+#: admin/theme-settings.php:825
+#, php-format
+msgid "Check %s to see existing theme classes and properties"
+msgstr "既存のCSSを閲覧するためには %s をチェックしてください。"
+
+#: admin/theme-settings.php:888
+msgid "Active shortcodes you can use in your posts or widgets"
+msgstr "ショートコードを記事とウィジェットで有効化する"
+
+#: admin/theme-settings.php:925
+msgid "Display as Asides"
+msgstr "Aサイドに表示"
+
+#: functions.php:12
+#, php-format
+msgid "Your site is running on %1$s. Mystique requires at least %2$s."
+msgstr "このサイトは %1$s で動作しています。 Mystiqueは最低%2$sが必要です。"
+
+#: functions.php:12
+msgid "(Dashboard)"
+msgstr "ダッシュボード"
+
+#: functions.php:86
+msgid "Default sidebar"
+msgstr "デフォルトサイドバー"
+
+#: functions.php:88
+msgid ""
+"This is the default sidebar, visible on 2 or 3 column layouts. If no widgets "
+"are active, the default theme widgets will be displayed instead."
+msgstr ""
+"これはデフォルトのサイドバーで、2カラムか3カラムのレイアウトで表示されます。"
+"ウィジェットが指定されていなければデフォルトのウィジェットが表示されます。"
+
+#: functions.php:96
+msgid "Secondary sidebar"
+msgstr "2つめのサイドバー"
+
+#: functions.php:98
+msgid "This sidebar is active only on a 3 column setup. "
+msgstr "この投稿は %1$s %2$s %3$s に %4$s カテゴリーに公開されました。"
+
+#: functions.php:106
+msgid "Footer"
+msgstr "フッター"
+
+#: functions.php:108
+msgid ""
+"You can add between 1 and 6 widgets here (3 or 4 are optimal). They will "
+"adjust their size based on the widget count. "
+msgstr ""
+"1個から6個のウィジェットを追加できます（3つか4つが最適）。ウィジェット数に応"
+"じて横幅は自動調整されます。"
+
+#: functions.php:116
+msgid "Footer (slide 2)"
+msgstr "フッター (2ページ目)"
+
+#: functions.php:118 functions.php:128 functions.php:138
+msgid "Only visible if jQuery is enabled. "
+msgstr "もしいくつかのエラーが出るなら, 設定は正しくありません."
+
+#: functions.php:126
+msgid "Footer (slide 3)"
+msgstr "フッター (3ページ目)"
+
+#: functions.php:136
+msgid "Footer (slide 4)"
+msgstr "フッター (4ページ目)"
+
+#~ msgid "(Use the private property to hide other links)"
+#~ msgstr ""
+#~ "公開鍵認証を行うには, FileZilla に使用する秘密鍵を指示する必要があります."
+
+#~ msgid "Facebook ID"
+#~ msgstr "Facebook ID"
+
+#~ msgid "My Facebook"
+#~ msgstr "My Facebook"
+
+#~ msgid "%s post"
+#~ msgid_plural "%s posts"
+#~ msgstr[0] "%s 件"
+#~ msgstr[1] "%s 件"
+
+#~ msgid "about %s year ago"
+#~ msgid_plural "about %s years ago"
+#~ msgstr[0] "約 %s 年前"
+#~ msgstr[1] "約 %s 年前"
+
+#~ msgid "about %s month ago"
+#~ msgid_plural "about %s months ago"
+#~ msgstr[0] "約 %s ヶ月前"
+#~ msgstr[1] "約 %s ヶ月前"
+
+#~ msgid "about %s week ago"
+#~ msgid_plural "about %s weeks ago"
+#~ msgstr[0] "約 %s 週間前"
+#~ msgstr[1] "約 %s 週間前"
+
+#~ msgid "about %s day ago"
+#~ msgid_plural "about %s days ago"
+#~ msgstr[0] "約 %s 日前"
+#~ msgstr[1] "約 %s 日前"
+
+#~ msgid "about %s hour ago"
+#~ msgid_plural "about %s hours ago"
+#~ msgstr[0] "約 %s 時間前"
+#~ msgstr[1] "約 %s 時間前"
+
+#~ msgid "about %s minute ago"
+#~ msgid_plural "about %s minutes ago"
+#~ msgstr[0] "約 %s 分前"
+#~ msgstr[1] "約 %s 分前"
+
+#~ msgid "about %s second ago"
+#~ msgid_plural "about %s seconds ago"
+#~ msgstr[0] "約 %s 秒前"
+#~ msgstr[1] "約 %s 秒前"
