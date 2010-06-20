@@ -232,7 +232,7 @@ msgstr "取り込むリンクのカテゴリーを選択してください。"
 
 #: lib/widgets.php:94
 msgid "Mystique | Sidebar tabs"
-msgstr "サイドバーをページに表示されない。"
+msgstr "Mystique | サイドバータブ"
 
 #: lib/widgets.php:119 lib/widgets.php:306
 msgid "Recent comments"
